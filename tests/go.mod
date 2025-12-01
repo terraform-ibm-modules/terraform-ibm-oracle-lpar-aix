@@ -1,4 +1,4 @@
-module github.com/terraform-ibm-modules/terraform-ibm-oracle-lpar-aix
+module github.com/terraform-ibm-modules/terraform-ibm-powervs-oracle
 
 go 1.24.0
 
