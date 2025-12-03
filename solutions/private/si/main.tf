@@ -2,7 +2,7 @@
 # Create RHEL VM
 # Create AIX VM
 # Initialize RHEL VM
-# Intitialize AIX VM
+# Initialize AIX VM
 # Download Oracle binaries from cos
 # Install GRID and RDBMS and Create Oracle Database
 #############################
