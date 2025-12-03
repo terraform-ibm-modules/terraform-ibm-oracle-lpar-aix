@@ -51,7 +51,6 @@ terraform.rc
 
 # Visual Studio Code
 .vscode/
-.lock
 
 ### Go ###
 # Binaries for programs and plugins
