@@ -23,7 +23,7 @@ https://terraform-ibm-modules.github.io/documentation/#/implementation-guideline
 This module creates a Oracle Single Instance 19c Database on IBM PowerVS Private AIX VSI.
 
 ## Overview
-This automated deployable architecture guide demonstrates the components used to deploy Oracle Single Instance 19c Database on IBM PowerVS Private. First it creates the infrastructure and next it creates the database. The Oracle Database can be either created on Automatic Storage Management (ASM) or on Journal File System (JFS2). 
+This automated deployable architecture guide demonstrates the components used to deploy Oracle Single Instance 19c Database on IBM PowerVS Private. First it creates the infrastructure and next it creates the database. The Oracle Database can be either created on Automatic Storage Management (ASM) or on Journal File System (JFS2).
 
 ## Reference Architecture
 
@@ -43,7 +43,7 @@ Using terraform, RHEL & AIX vms will be created. The RHEL vm will act as Ansible
 4. The Editor role on the Projects service.
 5. The Editor and Manager role on the Schematics service.
 6. The Viewer role on the resource group for the project.
-   
+
 - For information about configuring permissions, contact your account administrator.
 
 **Step B**: Generate API key
@@ -68,8 +68,8 @@ For example: This is the CRN:
 
 For more information, please refer to [IBM PowerVS Documentation](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-configuring-subnet)
 
-**Step E**: Create VM with external connectivity 
-- Contact IBM Support, IBM SRE will help in creating a VPN gateway for external connectivity. This will act as bastion host. 
+**Step E**: Create VM with external connectivity
+- Contact IBM Support, IBM SRE will help in creating a VPN gateway for external connectivity. This will act as bastion host.
 For more information, please refer to [IBM PowerVS Documentation](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-private-cloud-architecture#network-spec-private-cloud)
 
 **Step F**: Configure Squid Server on the bastion host for proxy service.
@@ -90,7 +90,7 @@ For more information, please refer to [IBM PowerVS Documentation](https://cloud.
 1. Create COS instance
 2. Generate COS service credentials
 3. Create COS bucket
-4. Download Oracle Binaries from [Oracle Site](https://www.oracle.com/database/technologies/oracle19c-aix-193000-downloads.html). They should be uploaded to IBM Cloud COS bucket and note down the COS Service Credentials. The following files must be downloaded. 
+4. Download Oracle Binaries from [Oracle Site](https://www.oracle.com/database/technologies/oracle19c-aix-193000-downloads.html). They should be uploaded to IBM Cloud COS bucket and note down the COS Service Credentials. The following files must be downloaded.
    - RDBMS software: AIX.PPC64_193000_db_home.zip
    - Grid Infrastructure software: AIX.PPC64_193000_grid_home.zip
    - Download the latest Release Update patch for AIX from MOS. Refer to this [Oracle documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/ntdbi/downloading-and-installing-patch-updates.html) to get the patches.
@@ -124,4 +124,4 @@ Refer to this link for more information about [Projects](https://cloud.ibm.com/d
    6.	Review the outputs from the deployable architecture
 
 ## Help and Support
-You can report issues and request features for this module in GitHub issues in the [repository link](https://github.com/terraform-ibm-modules/.github/blob/main/.github/SUPPORT.md) 
+You can report issues and request features for this module in GitHub issues in the [repository link](https://github.com/terraform-ibm-modules/.github/blob/main/.github/SUPPORT.md)

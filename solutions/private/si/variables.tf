@@ -217,9 +217,3 @@ variable "oracle_install_type" {
   description = "Oracle install type, value would be either ASM or JFS"
   type        = string
 }
-
-variable "skip_validation" {
-  description = "Skip pre-deployment validation checks if set to true."
-  type        = bool
-  default     = false
-}
