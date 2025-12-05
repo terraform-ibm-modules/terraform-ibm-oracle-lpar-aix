@@ -123,7 +123,7 @@ Refer to this link for more information about [Projects](https://cloud.ibm.com/d
    5.	Click Deploy (Deploying the deployable architecture can take more than 2 hours. You are notified when the deployment is successful)
    6.	Review the outputs from the deployable architecture
 
-After Deployment Oracle Single Instance 19.X Multipurpose-Database will get created on AIX. You can connect to AIX VM from VPN Gateway VM(VPC) or from gui console by resetting the root password.
+After Deployment Oracle Single Instance 19.X Multipurpose non-CDB Database will get created on AIX. You can connect to AIX VM from VPN Gateway VM(VPC) or from gui console by resetting the root password.
 
 ## Help and Support
 You can report issues and request features for this module in GitHub issues in the [repository link](https://github.com/terraform-ibm-modules/.github/blob/main/.github/SUPPORT.md)
